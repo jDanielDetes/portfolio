@@ -3,7 +3,10 @@ import { useForm } from "react-hook-form";
 
 export default function ContactMe() {
   const { register, handleSubmit, errors } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = e =>{
+  
+    console.log(e)
+  }
   console.log(errors);
 
   const style = {
@@ -14,6 +17,11 @@ export default function ContactMe() {
     
   };
 
+  const social={
+    display:'flex',
+    justifyContent:'space-between',
+    marginTop:50
+  }
   return (
     <div style={style} class="nes-input">
         <p>Contact me!</p>
@@ -35,9 +43,12 @@ export default function ContactMe() {
 
         <input type="submit"  class="nes-btn is-primary" />
       </form>
-      <i class="nes-icon github is-large"></i>
-      <i class="nes-icon linkedin is-large"></i>
-      <i class="nes-icon gmail is-large"></i>
+      <div style={social}>
+        <a href="https://github.com/jDanielDetes"><i class="nes-icon github is-large"></i></a>
+        <a href="https://www.linkedin.com/in/jean-detes/"><i class="nes-icon linkedin is-large"></i></a>
+        <a href="mailto:jdanieldetes@gmail.com"><i class="nes-icon gmail is-large"></i></a>
+      </div>
     </div>
   );
 }
+

@@ -1,4 +1,7 @@
 import React from "react";
+import Typewriter from "./Typewriter";
+import "./Intro.css"
+
 
 export default function Intro() {
 
@@ -18,8 +21,13 @@ export default function Intro() {
         maxWidth:1000
     }
 
+
+
+
   return (
     <div>
+      
+      <Typewriter className="hero-title" text="Jean Detes" />
       <div class="nes-container with-title  test is-dark"  style={style2}>
         <p class="title">About Me</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos vitae tempora accusamus omnis doloremque provident quidem quod ad eveniet!</p>

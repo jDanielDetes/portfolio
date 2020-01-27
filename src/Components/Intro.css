@@ -1,0 +1,19 @@
+.hero-title {
+    
+    font-size: 3.5em;
+    color: #7795f8 ;
+  }
+  .hero-title:before {
+    content: '>\a0';
+  }
+  .hero-title span {
+    background-color: rgba(#7795f8,#7795f8 );
+    animation: caret 1s steps(1) infinite;
+  }
+  @keyframes caret {
+    50% {
+      background-color: #747fe0;
+      
+    }
+  }
+  

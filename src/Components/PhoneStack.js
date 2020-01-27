@@ -42,50 +42,48 @@ const stackOfPhones = [
 ]
 // BACKGROUND GRADIENT & SECTION CONTAINER
 const PhoneSection = styled.div`
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  cursor: url("https://img.icons8.com/office/16/000000/0-percents.png") 39 39,
-    auto;
-  background: linear-gradient(71deg, #77c1ff, #4f0095, #ff89ab, #52ebac);
-  background-size: 800% 800%;
-  -webkit-animation: LuxuryGradientBG 43s ease infinite;
-  -moz-animation: LuxuryGradientBG 43s ease infinite;
-  animation: LuxuryGradientBG 43s ease infinite;
-  @-webkit-keyframes LuxuryGradientBG {
-    0% {
-      background-position: 0% 63%;
-    }
-    50% {
-      background-position: 100% 38%;
-    }
-    100% {
-      background-position: 0% 63%;
-    }
+position: absolute;
+overflow: hidden;
+width: 100%;
+height: 70%;
+top: 60; left: 0; right: 0; bottom:0;
+
+background: linear-gradient(71deg, #77c1ff, #4f0095, #ff89ab, #52ebac);
+background-size: 400% 400%;
+
+@-webkit-keyframes LuxuryGradientBG {
+  0% {
+    background-position: 0% 63%;
   }
-  @-moz-keyframes LuxuryGradientBG {
-    0% {
-      background-position: 0% 63%;
-    }
-    50% {
-      background-position: 100% 38%;
-    }
-    100% {
-      background-position: 0% 63%;
-    }
+  50% {
+    background-position: 100% 38%;
   }
-  @keyframes LuxuryGradientBG {
-    0% {
-      background-position: 0% 63%;
-    }
-    50% {
-      background-position: 100% 38%;
-    }
-    100% {
-      background-position: 0% 63%;
-    }
+  100% {
+    background-position: 0% 63%;
   }
+}
+@-moz-keyframes LuxuryGradientBG {
+  0% {
+    background-position: 0% 63%;
+  }
+  50% {
+    background-position: 100% 38%;
+  }
+  100% {
+    background-position: 0% 63%;
+  }
+}
+@keyframes LuxuryGradientBG {
+  0% {
+    background-position: 0% 63%;
+  }
+  50% {
+    background-position: 100% 38%;
+  }
+  100% {
+    background-position: 0% 63%;
+  }
+}
 `
 
 const PhoneStack = () => {
