@@ -23,8 +23,13 @@ function App() {
          <Navbar/>
       <Intro  /> 
       <div className="test2">
-      <Projects/>
-       <ContactMe/>
+        <div id="projects">
+        <Projects/>
+        </div>
+      <div id="contact">
+      <ContactMe/>
+      </div>
+       
       </div>
      
        
