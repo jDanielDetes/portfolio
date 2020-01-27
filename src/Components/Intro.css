@@ -17,3 +17,16 @@
     }
   }
   
+a{
+    float: right;
+
+}
+
+#test{
+        display: flex;
+        alignItems: center;
+        justifyContent: center;
+        margin-left: 15%;
+        margin-top: 3%;
+ 
+}

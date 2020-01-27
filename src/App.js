@@ -6,6 +6,7 @@ import ContactMe from "./Components/ContactMe";
 
 import Intro from "./Components/Intro";
 import Projects from "./Components/Projects";
+import { Navbar } from "./Components/Navbar";
 
 function App() {
   return (
@@ -19,10 +20,14 @@ function App() {
         
       </head>
       
-         
-      <Intro/> 
+         <Navbar/>
+      <Intro  /> 
+      <div className="test2">
       <Projects/>
        <ContactMe/>
+      </div>
+     
+       
       
     </div>
   );

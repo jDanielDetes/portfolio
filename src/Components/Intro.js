@@ -26,9 +26,9 @@ export default function Intro() {
 
   return (
     <div>
-      
+       
       <Typewriter className="hero-title" text="Jean Detes" />
-      <div class="nes-container with-title  test is-dark"  style={style2}>
+      <div class="nes-container with-title  test "  style={style2} id="test">
         <p class="title">About Me</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos vitae tempora accusamus omnis doloremque provident quidem quod ad eveniet!</p>
       </div>

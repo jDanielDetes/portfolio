@@ -10,6 +10,7 @@
     "react-dom": "^16.12.0",
     "react-hook-form": "^4.6.2",
     "react-scripts": "3.3.0",
+    "react-scrollchor": "^6.0.0",
     "react-spring": "^8.0.27",
     "react-use-gesture": "^6.0.14",
     "semantic-ui-css": "^2.4.1",

@@ -7,11 +7,12 @@ export default function ProjectCards(props) {
     const style={
         maxWidth: 1000,
         height: 344,
-        border: 'outset 10px #3f51b5',
-        backgroundColor: '#fffff2',
+        border: 'outset 10px #7795f8',
+        backgroundColor: '#faf5e4',
       
    
     }
+      {/* #faf5e4 f1f1f6 */ }
     const badgeStyle={
         width:670,
         display:'flex',

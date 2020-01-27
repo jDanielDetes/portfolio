@@ -1,5 +1,16 @@
 .App {
   text-align: center;
   background-color: #f6f9fc;
- 
+
+}
+
+p  {
+  color: #525f7f;
+}
+.test2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
 }
