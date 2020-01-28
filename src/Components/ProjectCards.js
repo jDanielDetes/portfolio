@@ -8,7 +8,7 @@ export default function ProjectCards(props) {
         maxWidth: 1000,
         height: 344,
         border: 'outset 10px #7795f8',
-        backgroundColor: '#faf5e4',
+        backgroundColor: '#f1f1f6',
       
    
     }
@@ -41,30 +41,30 @@ export default function ProjectCards(props) {
         <div style={container}>
             <Item.Group divided>
     <Item style={style}>
-      <Item.Image src={props.image} />
+      <Item.Image src={props.image}  />
     
       <Item.Content>
-         <p style={titleStyle}>PlaceholderTitle</p>
+         <p style={titleStyle}>{props.title}</p>
         <div className="Badges" style={badgeStyle}>
         <    div class="nes-badge">
-      <span class="is-primary">React</span>
+      <span class="is-primary">{props.skill1}</span>
     </div>
     
     <div class="nes-badge">
-      <span class="is-success">javaScript</span>
+      <span class="is-success">{props.skill2}</span>
     </div>
     <div class="nes-badge">
-      <span class="is-warning">Semantic-ui</span>
+      <span class="is-warning">{props.skill3}</span>
     </div>
     <div class="nes-badge">
-      <span class="is-error">CSS3</span>
+      <span class="is-error">{props.skill4}</span>
     </div>
         </div>
        
         <Item.Meta>
           <span className='cinema'>{props.price}</span>
         </Item.Meta>
-        <Item.Description >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, illo!</Item.Description>
+        <Item.Description >{props.info}</Item.Description>
         <Item.Extra>
         
           <div style={demoStyle}>

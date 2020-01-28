@@ -30,7 +30,7 @@ export default function Intro() {
       <Typewriter className="hero-title" text="Jean Detes" />
       <div class="nes-container with-title  test "  style={style2} id="test">
         <p class="title">About Me</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos vitae tempora accusamus omnis doloremque provident quidem quod ad eveniet!</p>
+        <p>I'm a web developer based in Columbia,maryland. I have a passion for web development and love to create responsive websites for desktop and mobile devices.</p>
       </div>
     </div>
   );
