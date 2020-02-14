@@ -4,11 +4,23 @@ import image2 from "../images/stockmarketchart.c853bec5.jpg";
 import CryptoProject from "../images/CryptoProject.png";
 import AnywhereFitness from "../images/AnywhereFitness.png"
 import Github from "../images/Github.png"
-import SpaceWalker from "../images/SpaceWalker.png"
+import Symphinity from "../images/test2.png"
 import NASA from "../images/NASA.png"
 
 export default function Projects(props) {
   const projects2 = [
+
+
+    {title: "Symphinity",
+    info:"One of my bigger projects! Symphinity uses Redux as it's state management and lets users favorite songs or depending on the song selected it will suggest songs based on beats per minute",
+    skill1:"Redux",
+    skill2:"React",
+    skill3:"API",
+    skill4:"SCSS", 
+    live:"https://symphinity-landing.netlify.com/",
+    code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
+      image: Symphinity
+    },
     {title: "Crypto Price checker",
     info:"This project was built using Reactjs and the data was pulled from a live API and displayed using semantic-UI and includes a dark mode Feature",
     skill1:"react",
@@ -38,16 +50,6 @@ export default function Projects(props) {
     live:"",
     code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
       image: Github 
-    },
-    {title: "SpaceWalkers",
-    info:"Another simple web page that uses just HTML,CSS and Javascript this project was a mock up to a space recruiting agency  ",
-    skill1:"HTML",
-    skill2:"CSS3",
-    skill3:"",
-    skill4:"", 
-    live:"https://elated-fermi-879ac3.netlify.com/",
-    code:"https://github.com/jDanielDetes/Sprint-Challenge--Advanced-CSS/tree/daniel-detes",
-      image: SpaceWalker 
     },
     {title: "nasa photo of day",
     info:"This project pulls data from  NASA's own photo of the day and displays it in a simple container and updates exactly when NASA's site does  ",
