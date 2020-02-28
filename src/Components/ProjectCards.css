@@ -45,6 +45,10 @@
     #linkCode{
         padding-bottom: 15px;
     }
-
+        #titleStyle{
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
   }
 
