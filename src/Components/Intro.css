@@ -2,7 +2,10 @@
     
     font-size: 3.5em;
     color: #7795f8 ;
-    margin: 5% 15% 5% 25%
+    margin: 5% 15% 5% 5%;
+    display: flex;
+    justify-content: center;
+    
   }
   .hero-title:before {
     content: '>\a0';
@@ -25,8 +28,8 @@ a{
 
 #test{
         display: flex;
-        justify-Content: center;
-        margin: 3% 0% 5% 23%
+        align-content: center;
+        margin: 3% 3% 5% 3%
  
 }
 
