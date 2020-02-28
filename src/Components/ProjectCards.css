@@ -39,7 +39,7 @@
 
   @media(max-width: 500px) {
     .mainContainer{
-        width: 480px;
+        width: 100%
     }
    
     #demos{

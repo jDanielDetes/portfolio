@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-
+  width: 100%;
 
 }
 
@@ -15,9 +15,9 @@ p  {
   
 }
 @media(max-width:500px){
-  body{
-    margin: 0;
-  }
+ .app{
+   width: 100%;
+ }
 
   .mainContainer{
     display: flex;
