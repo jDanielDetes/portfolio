@@ -20,17 +20,17 @@ export default function Projects(props) {
     live:"https://symphinity-landing.netlify.com/",
     code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
       image: Symphinity
+    },
+    {title: "Crypto Price checker",
+    info:"This project was built using Reactjs and the data was pulled from a live API and displayed using semantic-UI and includes a dark mode Feature",
+    skill1:"react",
+    skill2:"Javascript",
+    skill3:"semantic-ui",
+    skill4:"API", 
+    live:"https://admiring-villani-925119.netlify.com/",
+    code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
+      image: CryptoProject
     }
-    // {title: "Crypto Price checker",
-    // info:"This project was built using Reactjs and the data was pulled from a live API and displayed using semantic-UI and includes a dark mode Feature",
-    // skill1:"react",
-    // skill2:"Javascript",
-    // skill3:"semantic-ui",
-    // skill4:"API", 
-    // live:"https://admiring-villani-925119.netlify.com/",
-    // code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
-    //   image: CryptoProject
-    // },
     // {
     //   title: "Anywhere Fitness",
     //   info:"A simple landing page created using just HTML,CSS and javascript this project was created with a heavy focus on design and mobile responsiveness ",

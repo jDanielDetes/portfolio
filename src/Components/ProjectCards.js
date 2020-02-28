@@ -7,10 +7,7 @@ export default function ProjectCards(props) {
 
 
 
-    const  snesStyle={
-    height:57
-    }
-
+  
    
     
     const container={
@@ -54,11 +51,11 @@ export default function ProjectCards(props) {
         
           <div id="demos">
               <a href={props.live}>
-              <button type="button" class="nes-btn is-success"  style={snesStyle} >  <i class="snes-logo"></i>Live Demo</button>
+              <button type="button" class="nes-btn is-success"  >  <i class="snes-logo"></i>Live Demo</button>
               </a>
     
               <a href={props.code}>
-              <button type="button" class="nes-btn is-primary">  <i class="nes-icon github "></i>Link to Code</button>
+              <button type="button" class="nes-btn is-primary" id="linkCode">  <i class="nes-icon github "></i>Link to Code    </button>
               </a>
           </div>
         </Item.Extra>
@@ -68,7 +65,7 @@ export default function ProjectCards(props) {
     </Item>
   </Item.Group>
   
-      <p>sample text</p>
+   
         </div>
     )
 }

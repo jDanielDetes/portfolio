@@ -19,9 +19,7 @@ export default function Intro() {
         
     }
 
-    const style2={
-        maxWidth:1000
-    }
+   
 
 
 
@@ -30,7 +28,7 @@ export default function Intro() {
     <div>
        
       <Typewriter className="hero-title" text="Jean Detes" />
-      <div class="nes-container with-title  test "  style={style2} id="test">
+      <div class="nes-container with-title  test "   id="test">
         <p class="title">About Me</p>
         <p>I'm a web developer based in Columbia,maryland. I have a passion for web development and love to create responsive websites for desktop and mobile devices.</p>
       </div>
