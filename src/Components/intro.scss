@@ -9,7 +9,10 @@
 
     @include mobile {
       font-size: 2.3em;
+     
     }
+
+   
 
     span {
       background-color: rgba($purple, 0.65);
@@ -22,3 +25,5 @@
       }
     }
   }
+
+ 

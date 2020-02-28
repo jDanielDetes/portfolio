@@ -15,6 +15,8 @@ export default function Intro() {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'space-between'
+
+        
     }
 
     const style2={

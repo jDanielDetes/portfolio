@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Icon, Image, Item, Label } from 'semantic-ui-react'
-
+import './ProjectCards.css'
 
 
 export default function ProjectCards(props) {
@@ -37,10 +37,15 @@ export default function ProjectCards(props) {
         marginBottom:30
     }
 
+
+
+    
     return (
-        <div style={container}>
+        <div style={container} className="mainContainer">
             <Item.Group divided>
+              
     <Item style={style}>
+      
       <Item.Image src={props.image}  />
     
       <Item.Content>

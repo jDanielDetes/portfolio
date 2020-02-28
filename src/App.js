@@ -17,24 +17,29 @@ function App() {
           rel="stylesheet"
         />
         <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-        
       </head>
+ 
       
-         <Navbar/>
-      <Intro  /> 
-      <div className="test2">
-        <div id="projects">
-        <Projects/>
+         <body>
+         <div className="mainContainer">
+        <Navbar />
+        <Intro />
+        <div className="test2">
+          <div id="projects">
+            <Projects />
+          </div>
+          <div id="contact">
+            <ContactMe />
+          </div>
+          
         </div>
-      <div id="contact">
-      <ContactMe/>
-      </div>
-       
-      </div>
+        </div>
+        </body>
+   
+    
      
-       
-      
     </div>
+    
   );
 }
 

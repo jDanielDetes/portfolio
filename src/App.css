@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #f6f9fc;
+
 
 }
 
@@ -13,4 +13,16 @@ p  {
   align-items: center;
   justify-content: space-between;
   
+}
+@media(max-width:500px){
+  body{
+    margin: 0;
+  }
+
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
 }

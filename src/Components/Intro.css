@@ -2,7 +2,7 @@
     
     font-size: 3.5em;
     color: #7795f8 ;
-    margin: 5% 15% 5% 0%
+    margin: 5% 15% 5% 25%
   }
   .hero-title:before {
     content: '>\a0';
@@ -28,4 +28,18 @@ a{
         justify-Content: center;
         margin: 3% 0% 5% 23%
  
+}
+
+@media(max-width: 500px) {
+  .hero-title{
+    width: 500px;
+    font-size: 2.4em;
+    margin: 5% 15% 5% 0%
+  }
+
+  #test{
+    margin: 0;
+    font-size: 0.9em;
+  }
+  
 }

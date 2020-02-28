@@ -1,0 +1,12 @@
+
+
+@media(max-width: 500px) {
+    .mainContainer{
+        width: 480px;
+       
+    }
+    src{
+        width: 10px;
+    }
+    
+  }
