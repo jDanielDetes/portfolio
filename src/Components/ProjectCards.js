@@ -4,35 +4,15 @@ import './ProjectCards.css'
 
 
 export default function ProjectCards(props) {
-    const style={
-        maxWidth: 1000,
-        height: 344,
-        border: 'outset 10px #7795f8',
-        backgroundColor: '#f1f1f6',
-      
-   
-    }
-      {/* #faf5e4 f1f1f6 */ }
-    const badgeStyle={
-        width:670,
-        display:'flex',
-        justifyContent:'space-between',
-        marginTop:10
 
-    }
+
 
     const  snesStyle={
     height:57
     }
 
-    const demoStyle={
-        marginTop:70,
-        marginLeft: 240
-    }
-    const titleStyle={
-        marginTop:5,
-        fontSize: 20
-    }
+   
+    
     const container={
         marginBottom:30
     }
@@ -44,19 +24,19 @@ export default function ProjectCards(props) {
         <div style={container} className="mainContainer">
             <Item.Group divided>
               
-    <Item style={style}>
+    <Item id="cardBorder">
       
       <Item.Image src={props.image}  />
     
       <Item.Content>
-         <p style={titleStyle}>{props.title}</p>
-        <div className="Badges" style={badgeStyle}>
+         <p id="titleStyle">{props.title}</p>
+        <div className="Badges" id="badgeStyle">
         <    div class="nes-badge">
       <span class="is-primary">{props.skill1}</span>
     </div>
     
     <div class="nes-badge">
-      <span class="is-success">{props.skill2}</span>
+      <span className="is-success">{props.skill2}</span>
     </div>
     <div class="nes-badge">
       <span class="is-warning">{props.skill3}</span>
@@ -72,7 +52,7 @@ export default function ProjectCards(props) {
         <Item.Description >{props.info}</Item.Description>
         <Item.Extra>
         
-          <div style={demoStyle}>
+          <div id="demos">
               <a href={props.live}>
               <button type="button" class="nes-btn is-success"  style={snesStyle} >  <i class="snes-logo"></i>Live Demo</button>
               </a>
@@ -88,7 +68,7 @@ export default function ProjectCards(props) {
     </Item>
   </Item.Group>
   
-  
+      <p>sample text</p>
         </div>
     )
 }

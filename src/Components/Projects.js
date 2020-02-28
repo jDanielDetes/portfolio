@@ -12,7 +12,7 @@ export default function Projects(props) {
 
 
     {title: "Symphinity",
-    info:"One of my bigger projects! Symphinity uses Redux as it's state management and lets users favorite songs or depending on the song selected it will suggest songs based on beats per minute",
+    info:"One of my bigger projects! Symphinity uses Redux as it's state management and lets users favorite songs or depending on the song selected it will suggest songs based on beats per minute ",
     skill1:"Redux",
     skill2:"React",
     skill3:"API",
@@ -20,47 +20,47 @@ export default function Projects(props) {
     live:"https://symphinity-landing.netlify.com/",
     code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
       image: Symphinity
-    },
-    {title: "Crypto Price checker",
-    info:"This project was built using Reactjs and the data was pulled from a live API and displayed using semantic-UI and includes a dark mode Feature",
-    skill1:"react",
-    skill2:"Javascript",
-    skill3:"semantic-ui",
-    skill4:"API", 
-    live:"https://admiring-villani-925119.netlify.com/",
-    code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
-      image: CryptoProject
-    },
-    {
-      title: "Anywhere Fitness",
-      info:"A simple landing page created using just HTML,CSS and javascript this project was created with a heavy focus on design and mobile responsiveness ",
-      skill1:"HTML",
-      skill2:"CSS3",
-      skill3:"JavaScript", 
-      live:"https://frosty-euclid-827ed2.netlify.com/index.html",
-      code:"https://github.com/Build-Week-AnywhereFitness/Marketing/tree/Landing-Page",
-      image:AnywhereFitness
-    },
-    {title: "Github Friends",
-    info:"A simple page that was built using Githubs own API the data is fetched from the github user's friendslist and displayed in a grid system using semantic-ui ",
-    skill1:"react",
-    skill2:"semantic-ui",
-    skill3:"Javascript",
-    skill4:"", 
-    live:"",
-    code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
-      image: Github 
-    },
-    {title: "nasa photo of day",
-    info:"This project pulls data from  NASA's own photo of the day and displays it in a simple container and updates exactly when NASA's site does  ",
-    skill1:"HTML",
-    skill2:"Javascript",
-    skill3:"CSS3",
-    skill4:"", 
-    live:"https://admiring-villani-925119.netlify.com/",
-    code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
-      image: NASA
-    },
+    }
+    // {title: "Crypto Price checker",
+    // info:"This project was built using Reactjs and the data was pulled from a live API and displayed using semantic-UI and includes a dark mode Feature",
+    // skill1:"react",
+    // skill2:"Javascript",
+    // skill3:"semantic-ui",
+    // skill4:"API", 
+    // live:"https://admiring-villani-925119.netlify.com/",
+    // code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
+    //   image: CryptoProject
+    // },
+    // {
+    //   title: "Anywhere Fitness",
+    //   info:"A simple landing page created using just HTML,CSS and javascript this project was created with a heavy focus on design and mobile responsiveness ",
+    //   skill1:"HTML",
+    //   skill2:"CSS3",
+    //   skill3:"JavaScript", 
+    //   live:"https://frosty-euclid-827ed2.netlify.com/index.html",
+    //   code:"https://github.com/Build-Week-AnywhereFitness/Marketing/tree/Landing-Page",
+    //   image:AnywhereFitness
+    // },
+    // {title: "Github Friends",
+    // info:"A simple page that was built using Githubs own API the data is fetched from the github user's friendslist and displayed in a grid system using semantic-ui ",
+    // skill1:"react",
+    // skill2:"semantic-ui",
+    // skill3:"Javascript",
+    // skill4:"", 
+    // live:"",
+    // code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
+    //   image: Github 
+    // },
+    // {title: "nasa photo of day",
+    // info:"This project pulls data from  NASA's own photo of the day and displays it in a simple container and updates exactly when NASA's site does  ",
+    // skill1:"HTML",
+    // skill2:"Javascript",
+    // skill3:"CSS3",
+    // skill4:"", 
+    // live:"https://admiring-villani-925119.netlify.com/",
+    // code:"https://github.com/jDanielDetes/dark-mode/tree/daniel-detes",
+    //   image: NASA
+    // },
   ];
 
   let projectRow = projects2.map(project => {

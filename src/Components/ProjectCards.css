@@ -1,6 +1,33 @@
 
+#cardBorder{
+        max-width: 1000;
+        height: 444;
+        border: outset 10px #7795f8;
+        background-color: #f1f1f6;
+  }
 
-@media(max-width: 500px) {
+  #badgeStyle{
+    width:670;
+    display:flex;
+    justify-content:space-between;
+    margin-top:10;
+  }
+
+  #demos{
+      
+  margin-top:70;
+        margin-left: 240;
+    
+  }
+
+
+
+
+  /*Media queries */
+
+
+
+  @media(max-width: 500px) {
     .mainContainer{
         width: 480px;
        
@@ -10,3 +37,4 @@
     }
     
   }
+
