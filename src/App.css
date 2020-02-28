@@ -1,5 +1,6 @@
+
 .App {
-  text-align: center;
+  text-align: center; 
   width: 100%;
 
 }
@@ -14,15 +15,9 @@ p  {
   justify-content: space-between;
   
 }
-@media(max-width:500px){
- .app{
-   width: 100%;
- }
 
-  .mainContainer{
-    display: flex;
-    flex-direction: column;
-   
-    
+@media(max-width: 750px) {
+  .app{
+    width: 100%;
   }
 }

@@ -1,60 +1,67 @@
 
 #cardBorder{
-        max-width: 1000;
-        height: 444;
-        border: outset 10px #7795f8;
-        background-color: #f1f1f6;
-      
-  }
-
-  #badgeStyle{
-    width:670;
-    display:flex;
-    justify-content:space-between;
-    margin-top:10;
-  }
-
-  #demos{
-      
-  margin-top:70;
-        margin-left: 240;
-        
-    
-  }
-
-  #snesStyle{
-     height:57;
-        
-  }
-
-  #linkCode{
-      padding-bottom: 15px;
-  }
-
-
-
-  /*Media queries */
-
-
-
-  @media(max-width: 500px) {
-    .mainContainer{
-        width: 100%
-    }
    
-    #demos{
+      
+    border: outset 10px #7795f8;
+    background-color: #f1f1f6;
+  
+}
+
+#badgeStyle{
+width:670;
+display:flex;
+justify-content:space-between;
+margin-top:10;
+}
+
+#demos{
+  
+margin-top:70;
+    margin-left: 240;
+    
+
+}
+
+#snesStyle{
+ height:57;
+    
+}
+
+#linkCode{
+  padding-bottom: 15px;
+}
+
+
+
+/*Media queries */
+
+
+
+@media(max-width: 750px) {
+.mainContainer{
+    width: 100%;
+    
+    
+}
+
+#demos{
+    display: flex;
+    margin-top: 55px;
+   
+}
+
+#linkCode{
+    padding-bottom: 15px;
+}
+    #titleStyle{
         display: flex;
-        margin-top: 55px;
-       
+        justify-content: center;
+        font-size: 1.5rem;
     }
 
-    #linkCode{
-        padding-bottom: 15px;
+    #badgeStyle{
+        display: flex;
+        flex-direction: column;
     }
-        #titleStyle{
-            display: flex;
-            justify-content: center;
-            font-size: 1.5rem;
-        }
-  }
+}
 

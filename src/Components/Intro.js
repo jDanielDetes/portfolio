@@ -5,21 +5,7 @@ import "./Intro.css"
 
 export default function Intro() {
 
-    const style={
-        maxWidth: 345,
-        height: 440,
-        border: 'outset 10px #3f51b5',
-        backgroundColor: '#fffff2',
-        fontSize: '10px',
-        textAlign: 'left',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between'
 
-        
-    }
-
-   
 
 
 
